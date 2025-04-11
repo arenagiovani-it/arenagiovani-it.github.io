@@ -85,14 +85,14 @@ order: 1
       <div class="card card-bg card-big no-after">
         <div class="card-body">
           <div class="head-tags">
-            <a class="card-tag" href="#">Tag</a>
-            <span class="data">10/10/2025</span>
+            <a class="card-tag" href="/proposte/">Proposte</a>
+            <span class="data">01/01/2025</span>
           </div>
-          <h3 class="card-title h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
-          <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3 class="card-title h5 ">Proposta Centro Giovani</h3>
+          <p class="card-text font-serif">Visualizza la proposta sul centro giovani, che arena giovani presenterà per la realizzazione di un Centro Giovani a Fontanafredda presso la Ex Risorgiva.</p>
           <div class="it-card-footer">
-            <span class="card-signature">di Federico De Paolis</span>
-            <a class="btn btn-outline-primary btn-sm" href="#">Link Button <span class="visually-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</span></a>
+            <span class="card-signature">Da Area 2</span>
+            <a class="btn btn-outline-primary btn-sm" href="/proposte/centrogiovani/">Centro Giovani</a>
           </div>
         </div>
       </div>
@@ -103,14 +103,14 @@ order: 1
       <div class="card card-bg card-big no-after">
         <div class="card-body">
           <div class="head-tags">
-            <a class="card-tag" href="#">Tag</a>
-            <span class="data">10/10/2025</span>
+            <a class="card-tag" href="/comune/instanze/">Instanze</a>
+            <span class="data">01/04/2025</span>
           </div>
-          <h3 class="card-title h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
-          <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3 class="card-title h5 ">Richiesta di informazione a ogni singolo assessorato</h3>
+          <p class="card-text font-serif">Il progetto Arena Giovani si appresta a presentare un documento ufficiale alla Giunta Comunale con l’obiettivo di richiedere chiarimenti e informazioni dettagliate in merito a specifici ambiti relativi alle politiche giovanili. Tale iniziativa nasce dalla volontà di promuovere un dialogo costruttivo tra le istituzioni e i giovani del territorio, al fine di favorire una maggiore partecipazione attiva e consapevole alla vita politica e sociale della comunità.</p>
           <div class="it-card-footer">
-            <span class="card-signature">di Federico De Paolis</span>
-            <a class="btn btn-outline-primary btn-sm" href="#">Link Button <span class="visually-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</span></a>
+            <span class="card-signature">di Area 3</span>
+            <a class="btn btn-outline-primary btn-sm" href="/comune/instanze/R-d-I-992739/">Link Button</a>
           </div>
         </div>
       </div>

@@ -89,7 +89,7 @@ order: 1
             <span class="data">01/01/2025</span>
           </div>
           <h3 class="card-title h5 ">Proposta Centro Giovani</h3>
-          <p class="card-text font-serif">Visualizza la proposta sul centro giovani, che arena giovani presenterà per la realizzazione di un Centro Giovani a Fontanafredda presso la Ex Risorgiva.</p>
+          <p class="card-text font-serif">Il progetto Arena Giovani intende presentare un documento ufficiale alla Giunta Comunale per chiedere chiarimenti su specifici aspetti delle politiche giovanili. L’obiettivo è promuovere un dialogo costruttivo tra le istituzioni e i giovani del territorio, favorendo una partecipazione più attiva e consapevole alla vita politica e sociale della comunità.</p>
           <div class="it-card-footer">
             <span class="card-signature">Da Area 2</span>
             <a class="btn btn-outline-primary btn-sm" href="/proposte/centrogiovani/">Centro Giovani</a>

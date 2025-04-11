@@ -109,7 +109,7 @@ order: 1
           <h3 class="card-title h5 ">Richiesta di informazione a ogni singolo assessorato</h3>
           <p class="card-text font-serif">Il progetto Arena Giovani si appresta a presentare un documento ufficiale alla Giunta Comunale con l’obiettivo di richiedere chiarimenti e informazioni dettagliate in merito a specifici ambiti relativi alle politiche giovanili. Tale iniziativa nasce dalla volontà di promuovere un dialogo costruttivo tra le istituzioni e i giovani del territorio, al fine di favorire una maggiore partecipazione attiva e consapevole alla vita politica e sociale della comunità.</p>
           <div class="it-card-footer">
-            <span class="card-signature">di Area 3</span>
+            <span class="card-signature">di Area 2</span>
             <a class="btn btn-outline-primary btn-sm" href="/comune/instanze/R-d-I-992739/">Link Button</a>
           </div>
         </div>

@@ -27,8 +27,8 @@ order: 1
                   </figure>
                 </div>
               </div>
-                <h3 class="card-title h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
-                <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 class="card-title h5 ">Area 1</h3>
+                <p class="card-text font-serif">L'Area 1 è dedicata alle competenze relative alle aree tematiche delle politiche giovanili. Comprende tre uffici che si occupano rispettivamente di sport e tempo libero, cultura e pubblica istruzione, pari opportunità e benessere del personale.</p>
           </div>
         </div>
       </div>
@@ -47,8 +47,8 @@ order: 1
             </figure>
           </div>
         </div>
-          <h3 class="card-title h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
-          <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3 class="card-title h5 ">Area 2</h3>
+          <p class="card-text font-serif">L'Area 2 si occupa della gestione dei rapporti con il pubblico, delle proposte da presentare in Comune, dei contatti con Arena Giovani e delle relazioni con la stampa. Comprende due uffici: l'Ufficio Pubblico, responsabile della comunicazione con i cittadini, del blog ufficiale e dei social media; e l'Ufficio Stampa, che cura la posta in entrata e i rapporti con i media.</p>
         </div>
       </div>
     </div>
@@ -66,8 +66,8 @@ order: 1
             </figure>
           </div>
         </div>
-          <h3 class="card-title h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h3>
-          <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3 class="card-title h5 ">Area 3</h3>
+          <p class="card-text font-serif">"L'Area 3 coordina tutti i progetti promossi da Arena Giovani, gestisce i servizi informatici interni e cura i rapporti con le associazioni e le possibili collaborazioni. Attualmente comprende l’Ufficio Oratopia (in collaborazione con le Aree 1 e 3), l’Ufficio Informatico (gestito dall’Area 3) e l’Ufficio Bibliotecando (collegato all’Ufficio Cultura e Pubblica Istruzione).</p>
         </div>
       </div>
     </div>

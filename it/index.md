@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Homepage di esempio
-description: Questo è un esempio di homepage con utilizzo del componente "hero"
+title: Benvenuti su Arena Giovani
+description: Arena Giovani è un progetto che promuove iniziative pensate e gestite dai giovani, con l’obiettivo di sviluppare proposte che, dopo un processo di approvazione, vengono presentate al comune per essere realizzate.
 lang: it
 ref: homepage
 permalink: /

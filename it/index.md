@@ -23,7 +23,7 @@ order: 1
               <div class="img-responsive-wrapper">
                 <div class="img-responsive">
                   <figure class="img-wrapper">
-                    <img src="https://placehold.co/310x190/0066cc/FFFFFF/?text=IMMAGINE%20DI%20ESEMPIO" title="titolo immagine" alt="descrizione immagine">
+                    <img src="https://placehold.co/310x190/378a80/FFFFFF/?text=Area%201" title="" alt="">
                   </figure>
                 </div>
               </div>
@@ -43,7 +43,7 @@ order: 1
         <div class="img-responsive-wrapper">
           <div class="img-responsive">
             <figure class="img-wrapper">
-              <img src="https://placehold.co/310x190/0066cc/FFFFFF/?text=IMMAGINE%20DI%20ESEMPIO" title="titolo immagine" alt="descrizione immagine">
+                    <img src="https://placehold.co/310x190/378a80/FFFFFF/?text=Area%202" title="" alt="">
             </figure>
           </div>
         </div>
@@ -62,7 +62,7 @@ order: 1
         <div class="img-responsive-wrapper">
           <div class="img-responsive">
             <figure class="img-wrapper">
-              <img src="https://placehold.co/310x190/0066cc/FFFFFF/?text=IMMAGINE%20DI%20ESEMPIO" title="titolo immagine" alt="descrizione immagine">
+                    <img src="https://placehold.co/310x190/378a80/FFFFFF/?text=Area%203" title="" alt="">
             </figure>
           </div>
         </div>

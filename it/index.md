@@ -9,6 +9,9 @@ order: 1
 ---
 
 {% include hero.html %}
+<div class="container">
+  <script type="text/javascript" src="https://www.protezionecivile.fvg.it/widgets/pcrfvgit_alert.js"></script><div class="pcrfvgit_alert_widget" data-istatcode="93022"></div>
+</div>
 
 <main class="container my-4" markdown="1">
 

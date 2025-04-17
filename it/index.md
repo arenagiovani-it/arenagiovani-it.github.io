@@ -118,34 +118,35 @@ order: 1
     </div>
   </div>
 </div>
-<div class="container">
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
-  <button class="btn btn-primary" type="button">Primary</button>
+<div class="d-grid gap-2">
+  <div class="container">
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Primary</button>
+  </div>
 </div>
-
 </main>
 

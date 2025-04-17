@@ -119,32 +119,23 @@ order: 1
   </div>
 </div>
 <div class="d-grid gap-2">
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
-    <button class="btn btn-primary" type="button">Primary</button>
+    <button class="btn btn-primary" type="button">Uffici</button>
+    <button class="btn btn-primary" type="button">Aree</button>
+    <button class="btn btn-primary" type="button">Persone</button>
+    <button class="btn btn-primary" type="button">Trasparenza</button>
+    <button class="btn btn-primary" type="button">Proposte</button>
+    <button class="btn btn-primary" type="button">Organi</button>
+    <button class="btn btn-primary" type="button">Area 1</button>
+    <button class="btn btn-primary" type="button">Area 2</button>
+    <button class="btn btn-primary" type="button">Area 3</button>
+    <button class="btn btn-primary" type="button">Ufficio Sport e tempo libero</button>
+    <button class="btn btn-primary" type="button">Ufficio cultura e istruzione</button>
+    <button class="btn btn-primary" type="button">Ufficio Pari Opportunità e benessere del personale</button>
+    <button class="btn btn-primary" type="button">Ufficio Pubblico, gestione dei media e dei siti web</button>
+    <button class="btn btn-primary" type="button">Ufficio Informatico</button>
+    <button class="btn btn-primary" type="button">Gabriel Matteo Jones</button>
+    <button class="btn btn-primary" type="button">Commissione Area 1</button>
+    <button class="btn btn-primary" type="button">Tutte le pagine di Arena Giovani</button>
 </div>
 </main>
 

@@ -24,15 +24,3 @@ collections:
       - { label: "Data", name: "date", widget: "datetime" }
       - { label: "Contenuto", name: "body", widget: "markdown" }
 
-  - name: "pages"
-    label: "Pagine"
-    folder: "pages"
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    format: "yaml-frontmatter"
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-      - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Lingua", name: "lang", widget: "select", options: ["it", "en"], default: "it" }
-      - { label: "Contenuto", name: "body", widget: "markdown" }

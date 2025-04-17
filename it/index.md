@@ -119,7 +119,6 @@ order: 1
   </div>
 </div>
 <div class="d-grid gap-2">
-  <div class="container">
     <button class="btn btn-primary" type="button">Primary</button>
     <button class="btn btn-primary" type="button">Primary</button>
     <button class="btn btn-primary" type="button">Primary</button>
@@ -146,7 +145,6 @@ order: 1
     <button class="btn btn-primary" type="button">Primary</button>
     <button class="btn btn-primary" type="button">Primary</button>
     <button class="btn btn-primary" type="button">Primary</button>
-  </div>
 </div>
 </main>
 

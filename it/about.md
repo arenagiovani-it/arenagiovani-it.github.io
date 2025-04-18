@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Statuto Arena Giovani
+title: Sul Progetto
 description: Scopri cos’è Arena Giovani: un laboratorio civico aperto a tutte e tutti, nato per promuovere la partecipazione attiva, l’inclusione e il protagonismo delle nuove generazioni. Valori, obiettivi e struttura del progetto in una sola pagina.
 lang: it
 ref: /about/

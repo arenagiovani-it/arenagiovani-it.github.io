@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Benvenuti su Arena Giovani
-description: Arena Giovani è un progetto che promuove iniziative pensate e gestite dai giovani, con l’obiettivo di sviluppare proposte che, dopo un processo di approvazione, vengono presentate al comune per essere realizzate.
+title: Statuto Arena Giovani
+description: Lo statuto di un progetto è un documento formale che sancisce l’avvio del progetto, definendone gli obiettivi principali, l’ambito, i principali stakeholder, le risorse assegnate e l’autorità del project manager. Rappresenta un accordo iniziale tra le parti coinvolte e serve a garantire un allineamento condiviso su scopi, vincoli e responsabilità, costituendo così la base ufficiale per la pianificazione e l’esecuzione del progetto.
 lang: it
-ref: homepage
-permalink: /
+ref: /statuto/
+permalink: /statuto/
 order: 1
 ---
 <main>

@@ -1,0 +1,140 @@
+---
+layout: default
+title: Benvenuti su Arena Giovani
+description: Arena Giovani è un progetto che promuove iniziative pensate e gestite dai giovani, con l’obiettivo di sviluppare proposte che, dopo un processo di approvazione, vengono presentate al comune per essere realizzate.
+lang: it
+ref: homepage
+permalink: /
+order: 1
+---
+<main>
+  <div class="container" id="main-container">
+    <div class="row">
+      <div class="col-lg-8 px-lg-4 py-lg-2" data-audio>
+        <h1>Statuto Ufficiale di Arena Giovani</h1>
+        <p>Lo statuto di un progetto è un documento formale che sancisce l’avvio del progetto, definendone gli obiettivi principali, l’ambito, i principali stakeholder, le risorse assegnate e l’autorità del project manager. Rappresenta un accordo iniziale tra le parti coinvolte e serve a garantire un allineamento condiviso su scopi, vincoli e responsabilità, costituendo così la base ufficiale per la pianificazione e l’esecuzione del progetto.</p>
+      </div>
+      <div class="col-lg-3 offset-lg-1">
+        <div class="mt-4 mb-4">
+          <span class="subtitle-small">Argomenti</span>
+          <ul class="d-flex flex-wrap gap-1">
+            <li><span class="chip-label">Regolamenti</span></li>
+            <li><span class="chip-label">Trasparenza</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row border-top border-light row-column-border row-column-menu-left">
+      <aside class="col-lg-4">
+        <div class="cmp-navscroll sticky-top" aria-labelledby="accordion-title-one">
+          <nav class="navbar it-navscroll-wrapper navbar-expand-lg" aria-label="Indice della pagina" data-bs-navscroll>
+            <div class="navbar-custom" id="navbarNavProgress">
+              <div class="menu-wrapper">
+                <div class="link-list-wrapper">
+                  <div class="accordion">
+                    <div class="accordion-item">
+                      <span class="accordion-header" id="accordion-title-one">
+                        <button class="accordion-button pb-10 px-3 text-uppercase" type="button" aria-controls="collapse-one"
+                                aria-expanded="true" data-bs-toggle="collapse" data-bs-target="#collapse-one">
+                          INDICE DELLA PAGINA
+                          <svg class="icon icon-sm icon-primary align-top">
+                            <use xlink:href="#it-expand"></use>
+                          </svg>
+                        </button>
+                      </span>
+                      <div class="progress">
+                        <div class="progress-bar it-navscroll-progressbar" role="progressbar" style="width: 0%;"></div>
+                      </div>
+                      <div id="collapse-one" class="accordion-collapse collapse show" role="region" aria-labelledby="accordion-title-one">
+                        <div class="accordion-body">
+                          <ul class="link-list" data-element="page-index">
+                            <li><a class="nav-link active" href="#descrizione"><span class="title-medium">Descrizione</span></a></li>
+                            <li><a class="nav-link" href="#tipo_documento"><span class="title-medium">Tipo di documento</span></a></li>
+                            <li><a class="nav-link" href="#documenti"><span class="title-medium">Documento</span></a></li>
+                            <li><a class="nav-link" href="#ufficio_responsabile"><span class="title-medium">Ufficio responsabile</span></a></li>
+                            <li><a class="nav-link" href="#formati"><span class="title-medium">Formati disponibili</span></a></li>
+                            <li><a class="nav-link" href="#licenza"><span class="title-medium">Licenza di distribuzione</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </aside>
+      <section class="col-lg-8 it-page-sections-container border-light" data-audio>
+        <article id="descrizione" class="it-page-section anchor-offset">
+          <h3>Descrizione</h3>
+          <div class="richtext-wrapper lora">
+            <p>
+Arena Giovani è un progetto civico giovanile nato con l’obiettivo di promuovere la partecipazione attiva, l’inclusione e la crescita delle nuove generazioni. Si configura come un laboratorio civico apartitico e aconfessionale, aperto a tutti i giovani desiderosi di contribuire alla vita della propria comunità attraverso idee, proposte e iniziative concrete. Lo Statuto rappresenta la base valoriale e organizzativa del progetto, fornendo un quadro chiaro delle regole, dei ruoli e delle modalità di partecipazione.
+<br>
+Il documento stabilisce i principi ispiratori e le finalità del progetto, tra cui la formazione civica, l’inclusione sociale, lo sviluppo di competenze, la promozione della legalità e l’innovazione sociale. A questi si affiancano i valori fondamentali che guidano ogni attività: partecipazione democratica, trasparenza, collaborazione, rispetto, nonviolenza e responsabilità.
+<br>
+L’organizzazione interna di Arena Giovani si articola in organi direttivi, uffici tematici e comitati di lavoro, con una struttura collegiale che valorizza la condivisione delle decisioni. Il Consiglio Direttivo è l’organo centrale, affiancato da figure come il presidente, il vicepresidente e il segretario. Ogni ruolo ha competenze precise ed è assegnato attraverso elezione o nomina in base a criteri di esperienza e impegno.
+<br>
+Lo Statuto disciplina in modo dettagliato le modalità di candidatura ed elezione del presidente, la durata dei mandati, le modalità di sostituzione e i criteri per il rinnovo degli incarichi. Ogni processo elettorale si basa su principi di trasparenza, equità e coinvolgimento attivo di tutti i soci.
+<br>
+Ampio spazio è dedicato ai diritti e doveri dei partecipanti, che comprendono il diritto di voto, di proposta, di accesso alle informazioni e la possibilità di partecipare attivamente alle attività e agli eventi del progetto. Al tempo stesso, ogni partecipante è tenuto a rispettare il codice di comportamento, le regole comuni e l’ambiente sociale e culturale in cui il progetto opera.
+<br>
+Un’intera sezione è riservata al volontariato e alla collaborazione esterna, definendo con chiarezza i ruoli, i diritti, i doveri e le modalità di partecipazione dei volontari e collaboratori. Sono previste forme di supporto, formazione continua e riconoscimento dell’impegno profuso.
+<br>
+Infine, lo Statuto regola anche aspetti fondamentali come le modifiche statutarie, le disposizioni transitorie, lo scioglimento del progetto e il riferimento al quadro normativo italiano. Tutto ciò con l’obiettivo di garantire continuità, legalità, trasparenza e una partecipazione consapevole.            
+            </p>
+          </div>
+        </article
+        <article id="tipo_documento" class="it-page-section anchor-offset mt-5" data-audio>
+          <h3>Tipo di documento</h3>
+          <div class="richtext-wrapper lora">
+            <a class="text-decoration-none" href="/"> </a>
+          </div>
+        </article>
+        <article id="documenti" class="it-page-section anchor-offset mt-5" data-audio>
+          <h3>Documento</h3>
+          <div class="card card-teaser shadow-sm p-4s rounded border border-light flex-nowrap m-1">
+            <svg class="icon"><use xlink:href="#it-clip"></use></svg>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a class="text-decoration-none" href="/assets/StatutoAG.pdf">Statuto Arena Giovani (371 kB)</a>
+              </h5>
+            </div>
+          </div>
+        </article>
+        <article id="ufficio_responsabile" class="it-page-section anchor-offset mt-5" data-audio>
+          <h3>Ufficio responsabile</h3>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card card-teaser card-teaser-info rounded p-3 m-1 bx-shadow-sm">
+                <div class="card-body pe-3">
+                  <h5 class="card-title fs-5 fw-semibold">
+                    <a class="text-decoration-none" href="https://comune.arenagiovani.it/uffici/ufficio-presidente-e-soci">
+                      Ufficio Presidente e Soci
+                    </a>
+                  </h5>
+                  <div class="card-text"><p>L’Ufficio del Presidente e dei Soci, afferente all’Area 3, svolge funzioni di supporto ai soci e funge da segreteria del Presidente.</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article id="formati" class="it-page-section anchor-offset mt-5" data-audio>
+          <h3>Formati disponibili</h3>
+          <div class="richtext-wrapper lora">
+            <p>pdf</p>
+          </div>
+        </article>
+        <article id="licenza" class="it-page-section anchor-offset mt-5" data-audio>
+          <h3>Licenza di distribuzione</h3>
+          <div class="richtext-wrapper lora">
+            <p>Licenza aperta</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
+</main>

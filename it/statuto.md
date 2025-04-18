@@ -14,15 +14,6 @@ order: 1
         <h1>Statuto Ufficiale di Arena Giovani</h1>
         <p>Lo statuto di un progetto è un documento formale che sancisce l’avvio del progetto, definendone gli obiettivi principali, l’ambito, i principali stakeholder, le risorse assegnate e l’autorità del project manager. Rappresenta un accordo iniziale tra le parti coinvolte e serve a garantire un allineamento condiviso su scopi, vincoli e responsabilità, costituendo così la base ufficiale per la pianificazione e l’esecuzione del progetto.</p>
       </div>
-      <div class="col-lg-3 offset-lg-1">
-        <div class="mt-4 mb-4">
-          <span class="subtitle-small">Argomenti</span>
-          <ul class="d-flex flex-wrap gap-1">
-            <li><span class="chip-label">Regolamenti</span></li>
-            <li><span class="chip-label">Trasparenza</span></li>
-          </ul>
-        </div>
-      </div>
     </div>
   </div>
   <div class="container">

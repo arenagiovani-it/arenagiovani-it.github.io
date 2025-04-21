@@ -8,7 +8,8 @@ permalink: /form-9927/
 order: 1
 ---
 <div class="container">
-<p>*NB: Ogni form è facoltativo </p>
+<br>
+    <p>*NB: Ogni form è facoltativo </p>
     <form action="mailto:gabriel.jones@18f.it?subject=Modulo" method="POST" enctype="text/plain">
       <label for="nome">Nome:</label><br>
       <input type="text" name="nome" id="nome"><br><br>
@@ -34,4 +35,5 @@ order: 1
       <p><i>Per la foto: inviala separatamente alla mail indicata o con contatti non ufficiali tipo whatsapp, instagram o quant'altro.</i></p>
       <input type="submit" value="Invia">
     </form>
+<br>
 </div>

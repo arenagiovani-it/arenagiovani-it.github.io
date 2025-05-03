@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Statuto Arena Giovani
+title: Ufficio soci - Organo direttivo
 description:
 lang: it
-ref: /organi/direttivo/
-permalink: /organi/direttivo/
+ref: /organi/soci/
+permalink: /organi/soci/
 order: 1
 ---
 L'organo direttivo di Arena Giovani si articola in due uffici distinti: l'Ufficio Soci e l'Ufficio Direttivo.

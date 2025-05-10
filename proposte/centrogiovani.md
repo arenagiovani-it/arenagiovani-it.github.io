@@ -4,7 +4,7 @@ title: Benvenuti su Arena Giovani
 description: Arena Giovani è un progetto che promuove iniziative pensate e gestite dai giovani, con l’obiettivo di sviluppare proposte che, dopo un processo di approvazione, vengono presentate al comune per essere realizzate.
 lang: it
 ref: homepage
-permalink: /
+permalink: /proposte/centrogiovani/
 order: 1
 page.responsab: Gabriel Matteo Jones | Ufficio dei soci
 page.responsablink: https://comune.arenagiovani.it/persone/gabrielmatteojones/

@@ -10,7 +10,6 @@ order: 1
 
 {% include hero.html %}
 
-<main class="container my-4" markdown="1">
 
 {% include posts.html %}
 <div class="row">
@@ -137,5 +136,4 @@ order: 1
     <button class="btn btn-primary" type="button">Commissione Area 1</button>
     <button class="btn btn-primary" type="button">Tutte le pagine di Arena Giovani</button>
 </div>
-</main>
 

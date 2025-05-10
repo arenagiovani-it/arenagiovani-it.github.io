@@ -12,6 +12,10 @@ order: 1
 
 
 {% include posts.html %}
+<div class="container">
+
+
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <!--start card-->
@@ -137,3 +141,6 @@ order: 1
     <button class="btn btn-primary" type="button">Tutte le pagine di Arena Giovani</button>
 </div>
 
+
+
+</div>

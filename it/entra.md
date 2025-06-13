@@ -24,4 +24,4 @@ Se hai tra i **14 e i 25 anni**, entra a far parte della community compilando il
 
 ## 📩 Contatti
 
-Hai domande o vuoi saperne di più? Scrivici a "iscrizione@18f.it
+Hai domande o vuoi saperne di più? Scrivici a "iscrizione.ag25@18f.it

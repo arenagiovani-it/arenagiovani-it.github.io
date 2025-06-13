@@ -1,12 +1,10 @@
 ---
-layout: default
-title: Entra | Arena Giovani
+layout: page
+title: Arena Giovani
 lang: it
 ref: entra
 permalink: /entra/
 ---
-# Arena Giovani
-
 **Arena Giovani** è uno spazio dedicato ai giovani per condividere idee, costruire progetti e partecipare attivamente alla vita culturale e sociale del territorio.
 
 L'obiettivo è offrire un ambiente stimolante dove i ragazzi possano:

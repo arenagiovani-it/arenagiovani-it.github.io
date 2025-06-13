@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Entra | Arena Giovani
 lang: it
 ref: entra

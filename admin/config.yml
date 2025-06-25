@@ -15,14 +15,12 @@ collections:
     label: "Persone Pubbliche"
     folder: "content/persone_pubbliche"
     create: true
-    slug: "{{nome | lower | replace(' ', '') }}_{{ruolo | lower | replace(' ', '') }}.dml"
-    extension: "md"
+    slug: "{{nome | slugify}}-{{cognome | slugify}}"
+    extension: "html"
     fields:
-      - { label: "Nome", name: "nome", widget: "string" }
+      - { label: "Nome", name: "nome", widget: "string", required: true }
+      - { label: "Cognome", name: "cognome", widget: "string", required: true }
       - { label: "Ruolo", name: "ruolo", widget: "string" }
       - { label: "Email", name: "email", widget: "string" }
       - { label: "Foto", name: "foto", widget: "image" }
       - { label: "Descrizione", name: "descrizione", widget: "text" }
-      - label: "Contenuto HTML"
-        name: "contenuto_html"
-        widget: "markdown"

@@ -1,35 +1,61 @@
 backend:
   name: git-gateway
-  branch: dependabot/bundler/addressable-2.8.1 # La tua branch principale, solitamente 'main' o 'master'
+  branch: 48891
 
-media_folder: "assets" # Dove saranno caricate le immagini
-public_folder: "/assets" # Path pubblico per le immagini
+media_folder: "assets"
+public_folder: "/assets"
 
 collections:
-  - name: "posts" # Nome della collection, che corrisponde ai post
+  - name: "posts"
     label: "Post"
-    folder: "_posts" # La cartella dove sono i post in Jekyll
-    create: true # Permette di creare nuovi post
-    slug: "{{year}}-{{day}}-{{month}}-{{slug}}" # Struttura del nome dei file
+    folder: "_posts"
+    create: true
+    slug: "{{slug}}"
     fields:
-      - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Data", name: "date", widget: "datetime", default: "now" } # Data automatica
-      - { label: "Contenuto", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Categorie", name: "categories", widget: "list" }
-      - { label: "Descrizione", name: "description", widget: "string" }
-      - { label: "Parole Chiave", name: "keywords", widget: "string" }
-      - { label: "Immagine", name: "image", widget: "image" }
-      - { label: "Permalink", name: "permalink", widget: "string" }
-      - { label: "Riferimento", name: "ref", widget: "string", default: "new" } # Riferimento automatico
-      - { label: "Autore", name: "author", widget: "hidden", default: "Redazione GMJ" } # Autore nascosto
-      - { label: "Lingua", name: "lang", widget: "hidden", default: "it" }
-  - name: "page" # Nome della collection, che corrisponde ai post
-    label: "Post"
-    folder: "it" # La cartella dove sono i post in Jekyll
-    create: true # Permette di creare nuovi post
-    slug: "{{title}}" # Struttura del nome dei file
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Data", name: "date", widget: "datetime"}
+      - {label: "Contenuto", name: "body", widget: "markdown"}
+
+  - name: "incarico_formale"
+    label: "Incarico Formale"
+    folder: "_incarico_formale"
+    create: true
+    slug: "{{slug}}"
     fields:
-      - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Data", name: "date", widget: "datetime", default: "now" } # Data automatica
-      - { label: "Contenuto", name: "body", widget: "markdown" }
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Nome", name: "name", widget: "string"}
+      - {label: "Incarico", name: "incarico", widget: "string"}
+      - {label: "Tipo di Incarico", name: "tipo_incarico", widget: "string"}
+      - {label: "Data Insediamento", name: "data_insediamento", widget: "date"}
+      - label: "Organizzazione"
+        name: "organizzazione"
+        widget: "list"
+        fields:
+          - {label: "Nome", name: "nome", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+          - {label: "Ruolo", name: "ruolo", widget: "string"}
+      - {label: "Contenuto", name: "body", widget: "markdown"}
+
+  - name: "sites"
+    label: "Mini-siti"
+    folder: "sites"
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Contenuto", name: "body", widget: "markdown"}
+
+  - name: "navbar"
+    label: "Navbar"
+    files:
+      - label: "Menu principale"
+        name: "nav"
+        file: "_data/nav.yml"
+        fields:
+          - label: "Link"
+            name: "menu"
+            widget: "list"
+            fields:
+              - {label: "Testo", name: "text", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}

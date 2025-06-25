@@ -122,43 +122,26 @@
       <div class="container-xxl">
         <div class="row">
           <div class="col-12">
-            <!--start nav-->
-            <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
-              <button class="custom-navbar-toggler" type="button" aria-controls="navC2" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#navC2">
-              <img src="https://www.svgrepo.com/show/506800/burger-menu.svg" alt="Menu" style="width: 24px; height: 24px;">
-              </button>
-              <div class="navbar-collapsable" id="navC2" style="display: none;">
-                <div class="overlay" style="display: none;"></div>
-                <div class="close-div">
-                  <button class="btn close-menu" type="button">
-                    <span class="visually-hidden">Nascondi la navigazione</span>
-                    <svg class="icon"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-close-big"></use></svg>
-                  </button>
-                </div>
-                <div class="menu-wrapper">
-                  <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="https://blog.gabrieljones.it/arenagiovani/"><span>Blog</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/centrigiovani/"><span>Centri Giovani</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://comune.arenagiovani.it/presidenza/presidente.dml"><span>Presidente</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://comune.arenagiovani.it/presidenza/segretario.dml"><span>Segretario</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://gabrieljones.it/tag/"><span>Trasparenza</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/commissioni/"><span>Commissioni</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/uffici/"><span>Uffici</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/entra/"><span>Entra</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact/"><span>Contatti</span></a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                  <nav class="navbar navbar-expand-lg has-megamenu" aria-label="Navigazione principale">
+                    <button class="custom-navbar-toggler" type="button" aria-controls="navC2" aria-expanded="false" aria-label="Mostra/Nascondi la navigazione" data-bs-toggle="navbarcollapsible" data-bs-target="#navC2">
+                      <img src="https://www.svgrepo.com/show/506800/burger-menu.svg" alt="Menu" style="width: 24px; height: 24px;">
+                    </button>
+                    <div class="navbar-collapsable" id="navC2" style="display: none;">
+                      <div class="overlay" style="display: none;"></div>
+                      <div class="close-div">
+                        <button class="btn close-menu" type="button">
+                          <span class="visually-hidden">Nascondi la navigazione</span>
+                          <svg class="icon"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-close-big"></use></svg>
+                        </button>
                       </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+                      <div class="menu-wrapper">
+                        <ul class="navbar-nav">
+                          {% for item in site.data.nav.menu %}
+                          <li class="nav-item"><a class="nav-link" href="{{ item.url }}"><span>{{ item.text }}</span></a></li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
           </div>
         </div>
       </div>

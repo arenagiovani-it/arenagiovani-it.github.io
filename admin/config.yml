@@ -10,7 +10,10 @@ collections:
     label: "Persone Pubbliche"
     folder: "content/persone_pubbliche"
     create: true
-    slug: "{{slug}}"           # Questo genera automaticamente "esempio"
+    # Qui genera automaticamente nome_file.dml
+    slug: "{{fields.ruolo}}"
+    extension: "html"
+    path: "presidenza/{{slug}}.dml/"
     fields:
       - { label: "Nome", name: "nome", widget: "string" }
       - { label: "Ruolo", name: "ruolo", widget: "string" }

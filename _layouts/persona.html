@@ -21,63 +21,84 @@ permalink: /presidenza/{{ page.nome }}.dml/index.html
         </figure>
         {% endif %}
 
+        {% if page.descrizione %}
         <section class="it-page-section mb-4">
-          {% if page.descrizione %}
           <h3>Descrizione</h3>
           <div class="richtext-wrapper lora">
             <p>{{ page.descrizione }}</p>
           </div>
-          {% endif %}
         </section>
+        {% endif %}
 
+        {% if page.incarico %}
         <section class="it-page-section mb-4">
-          {% if page.incarico %}
           <h3>Incarico</h3>
           <div class="richtext-wrapper lora">
             <p>{{ page.incarico }}</p>
           </div>
-          {% endif %}
         </section>
+        {% endif %}
 
+        {% if page.data_insediamento %}
         <section class="it-page-section mb-4">
-          {% if page.data_insediamento %}
           <h3>Data di insediamento</h3>
           <div class="richtext-wrapper lora">
             <p>{{ page.data_insediamento | date: "%d %B %Y" }}</p>
           </div>
-          {% endif %}
         </section>
+        {% endif %}
 
+        {% if page.organizzazione %}
         <section class="it-page-section mb-4">
-          {% if page.organizzazione %}
           <h3>Organizzazione</h3>
           <div class="row">
-            <div class="col-12">
-              <div class="richtext-wrapper lora">
-                <p>{{ page.organizzazione }}</p>
+            {% for org in page.organizzazione %}
+            <div class="col-sm-6">
+              <div class="card card-teaser card-teaser-info rounded p-3 m-1 bx-shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title fs-5 fw-semibold">
+                    <a class="text-decoration-none" href="{{ org.link }}" target="_blank">
+                      {{ org.nome }}
+                    </a>
+                  </h5>
+                </div>
               </div>
             </div>
+            {% endfor %}
           </div>
-          {% endif %}
         </section>
+        {% endif %}
 
+        {% if page.competenze %}
         <section class="it-page-section mb-4">
-          {% if page.competenze %}
           <h3>Competenze</h3>
           <div class="richtext-wrapper lora">
             <p>{{ page.competenze }}</p>
           </div>
-          {% endif %}
         </section>
+        {% endif %}
 
+        {% if page.contatti %}
         <section class="it-page-section mb-4">
-          {% if page.contatti %}
           <h3>Contatti</h3>
-          <div class="richtext-wrapper lora">
-            <p>{{ page.contatti }}</p>
+          <div class="row">
+            {% for contatto in page.contatti %}
+            <div class="col-sm-6">
+              <div class="card card-teaser card-teaser-info rounded p-3 m-1 bx-shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title fw-semibold">Contatto</h5>
+                  <div class="card-text">
+                    <a href="mailto:{{ contatto }}" class="text-decoration-none">
+                      {{ contatto }}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
           </div>
-          {% endif %}
         </section>
+        {% endif %}
 
         {% if page.documenti %}
         <section class="it-page-section mb-4">
@@ -87,7 +108,9 @@ permalink: /presidenza/{{ page.nome }}.dml/index.html
               {% for doc in page.documenti %}
               <li class="it-list-item d-flex justify-content-between align-items-center">
                 <div>
-                  <a href="{{ doc.link }}" target="_blank" rel="noopener">{{ doc.nome_file }}</a>
+                  <a href="{{ doc.link }}" target="_blank" rel="noopener">
+                    {{ doc.nome_file }}
+                  </a>
                 </div>
               </li>
               {% endfor %}

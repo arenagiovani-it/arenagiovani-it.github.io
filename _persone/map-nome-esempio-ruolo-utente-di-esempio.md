@@ -7,4 +7,5 @@ incarico: esempio
 organizzazione: Sample
 competenze: Sample
 contatti: Sample
+layoyt: persona
 ---

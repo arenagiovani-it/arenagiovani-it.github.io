@@ -1,19 +1,19 @@
 menu:
-  - text: "Blog"
+  - text: Blog
     url: "https://blog.gabrieljones.it/arenagiovani/"
-  - text: "Centri Giovani"
+  - text: Centri Giovani
     url: "/centrigiovani/"
-  - text: "Presidente"
+  - text: Presidente
     url: "https://comune.arenagiovani.it/presidenza/presidente.dml"
-  - text: "Segretario"
+  - text: Segretario
     url: "https://comune.arenagiovani.it/presidenza/segretario.dml"
-  - text: "Trasparenza"
+  - text: Trasparenza
     url: "https://gabrieljones.it/tag/"
-  - text: "Commissioni"
+  - text: Commissioni
     url: "/commissioni/"
-  - text: "Uffici"
+  - text: Uffici
     url: "/uffici/"
-  - text: "Entra"
+  - text: Entra
     url: "/entra/"
-  - text: "Contatti"
+  - text: Contatti
     url: "/contact/"

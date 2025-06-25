@@ -6,24 +6,57 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-  - name: "persone"
-    label: "Persone pubbliche"
-    folder: "persone"
+  - name: persone
+    label: "Persone Pubbliche"
+    folder: "_persone"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Nome", name: "nome", widget: "string" }
-      - { label: "Ruolo", name: "ruolo", widget: "string" }
-      - { label: "Email", name: "email", widget: "string" }
-      - { label: "Foto", name: "foto", widget: "image", required: false }
-      - { label: "Descrizione", name: "descrizione", widget: "text", required: false }
-      - { label: "Incarico", name: "incarico", widget: "string", required: false }
-      - { label: "Data insediamento", name: "data_insediamento", widget: "date", required: false }
-      - { label: "Organizzazione", name: "organizzazione", widget: "text", required: false }
-      - { label: "Competenze", name: "competenze", widget: "text", required: false }
-      - { label: "Contatti", name: "contatti", widget: "text", required: false }
-      - { label: "Documenti", name: "documenti", widget: "list", required: false, fields: 
-          - { label: "Nome file", name: "nome_file", widget: "string" }
-          - { label: "Link", name: "link", widget: "string" }
-        }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "persona" }
+      - label: "Nome"
+        name: "nome"
+        widget: "string"
+      - label: "Ruolo"
+        name: "ruolo"
+        widget: "string"
+        required: false
+      - label: "Foto"
+        name: "foto"
+        widget: "image"
+        required: false
+      - label: "Descrizione"
+        name: "descrizione"
+        widget: "text"
+        required: false
+      - label: "Incarico"
+        name: "incarico"
+        widget: "text"
+        required: false
+      - label: "Data di insediamento"
+        name: "data_insediamento"
+        widget: "datetime"
+        format: "DD MMMM YYYY"
+        date_format: true
+        required: false
+      - label: "Organizzazione"
+        name: "organizzazione"
+        widget: "text"
+        required: false
+      - label: "Competenze"
+        name: "competenze"
+        widget: "text"
+        required: false
+      - label: "Contatti"
+        name: "contatti"
+        widget: "text"
+        required: false
+      - label: "Documenti"
+        name: "documenti"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Nome file"
+            name: "nome_file"
+            widget: "string"
+          - label: "Link"
+            name: "link"
+            widget: "string"

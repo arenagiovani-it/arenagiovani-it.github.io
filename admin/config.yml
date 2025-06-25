@@ -30,7 +30,7 @@ collections:
       - label: "Organizzazione"
         name: "organizzazione"
         widget: "list"
-        field:
+        fields:
           - {label: "Nome", name: "nome", widget: "string"}
           - {label: "Link", name: "link", widget: "string"}
           - {label: "Ruolo", name: "ruolo", widget: "string"}
@@ -48,14 +48,16 @@ collections:
 
   - name: "navbar"
     label: "Navbar"
-    files:
-      - label: "Menu principale"
-        name: "nav"
-        file: "_data/nav.yml"
+    folder: "_navbar"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Titolo"
+        name: "title"
+        widget: "string"
+      - label: "Link"
+        name: "menu"
+        widget: "list"
         fields:
-          - label: "Link"
-            name: "menu"
-            widget: "list"
-            field:
-              - {label: "Testo", name: "text", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
+          - {label: "Testo", name: "text", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}

@@ -11,4 +11,5 @@ organizzazione:
 contatti:
   - info@comune.arenagiovani.it
 permalink: /presidenza/Mattia.dml/
+layout: persona
 ---

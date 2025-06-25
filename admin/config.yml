@@ -2,15 +2,15 @@ backend:
   name: git-gateway
   branch: 48891
 
-media_folder: "assets"
-public_folder: "/assets"
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "persone_pubbliche"
-    label: "Persone con incarichi pubblici"
-    folder: "incarico_formale"
+    label: "Persone Pubbliche"
+    folder: "content/persone_pubbliche"
     create: true
-    slug: "/persone/c2016/{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Nome", name: "nome", widget: "string" }
       - { label: "Ruolo", name: "ruolo", widget: "string" }

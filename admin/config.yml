@@ -6,53 +6,60 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-  - name: persone
+  - name: "persone_pubbliche"
     label: "Persone Pubbliche"
-    folder: "_persone"
+    folder: "content/persone_pubbliche"
     create: true
     slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
     fields:
+      - label: "Titolo"
+        name: "title"
+        widget: "string"
       - label: "Nome"
         name: "nome"
         widget: "string"
       - label: "Ruolo"
         name: "ruolo"
         widget: "string"
-        required: false
       - label: "Foto"
         name: "foto"
         widget: "image"
-        required: false
       - label: "Descrizione"
         name: "descrizione"
-        widget: "text"
-        required: false
+        widget: "string"
       - label: "Incarico"
         name: "incarico"
-        widget: "text"
-        required: false
+        widget: "string"
       - label: "Data di insediamento"
         name: "data_insediamento"
-        widget: "datetime"
-        format: "DD MMMM YYYY"
-        date_format: true
-        required: false
+        widget: "date"
       - label: "Organizzazione"
         name: "organizzazione"
-        widget: "text"
-        required: false
+        widget: "list"
+        fields:
+          - label: "Nome"
+            name: "nome"
+            widget: "string"
+          - label: "Link"
+            name: "link"
+            widget: "string"
+          - label: "Descrizione"
+            name: "descrizione"
+            widget: "string"
+            required: false
       - label: "Competenze"
         name: "competenze"
-        widget: "text"
+        widget: "list"
         required: false
       - label: "Contatti"
         name: "contatti"
-        widget: "text"
+        widget: "list"
         required: false
       - label: "Documenti"
         name: "documenti"
         widget: "list"
-        required: false
         fields:
           - label: "Nome file"
             name: "nome_file"

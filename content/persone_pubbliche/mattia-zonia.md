@@ -10,4 +10,5 @@ organizzazione:
     link: https://www.esselunga.com
 contatti:
   - info@comune.arenagiovani.it
+permalink: /presidenza/Mattia.dml/
 ---

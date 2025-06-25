@@ -10,7 +10,7 @@ collections:
     label: "Persone Pubbliche"
     folder: "content/persone_pubbliche"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.incarico}}"
     extension: "md"
     format: "frontmatter"
     fields:

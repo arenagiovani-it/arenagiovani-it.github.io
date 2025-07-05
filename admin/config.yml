@@ -6,70 +6,9 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-  - name: "persone_pubbliche"
-    label: "Persone Pubbliche"
-    folder: "content/persone_pubbliche"
-    create: true
-    slug: "{{fields.incarico}}"
-    extension: "md"
-    format: "frontmatter"
-    fields:
-      - label: "Titolo"
-        name: "title"
-        widget: "string"
-      - label: "Nome"
-        name: "nome"
-        widget: "string"
-      - label: "Ruolo"
-        name: "ruolo"
-        widget: "string"
-      - label: "Foto"
-        name: "foto"
-        widget: "image"
-      - label: "Descrizione"
-        name: "descrizione"
-        widget: "string"
-      - label: "Incarico"
-        name: "incarico"
-        widget: "string"
-      - label: "Data di insediamento"
-        name: "data_insediamento"
-        widget: "date"
-      - label: "Organizzazione"
-        name: "organizzazione"
-        widget: "list"
-        fields:
-          - label: "Nome"
-            name: "nome"
-            widget: "string"
-          - label: "Link"
-            name: "link"
-            widget: "string"
-          - label: "Descrizione"
-            name: "descrizione"
-            widget: "string"
-            required: false
-      - label: "Competenze"
-        name: "competenze"
-        widget: "list"
-        required: false
-      - label: "Contatti"
-        name: "contatti"
-        widget: "list"
-        required: false
-      - label: "Documenti"
-        name: "documenti"
-        widget: "list"
-        fields:
-          - label: "Nome file"
-            name: "nome_file"
-            widget: "string"
-          - label: "Link"
-            name: "link"
-            widget: "string"
   - name: "presidenza"
     label: "Presidenza"
-    folder: "content/presidenza"
+    folder: "_persone"
     create: true
     slug: "{{slug}}"
     fields:
@@ -77,7 +16,7 @@ collections:
       - { name: "nome", label: "Nome" }
       - { name: "email", label: "Email", widget: "string" }
       - { name: "foto", label: "URL Foto", widget: "image" }
-      - { name: "layout", label: "Layout", default: "page", widget: "hidden" }
+      - { name: "layout", label: "Layout", default: "pp", widget: "hidden" }
       - { name: "permalink", label: "Permalink", widget: "string" }
       - { name: "lang", label: "Lingua", default: "it" }
       - { name: "ruolo", label: "Ruolo", widget: "string" }

@@ -67,3 +67,20 @@ collections:
           - label: "Link"
             name: "link"
             widget: "string"
+  - name: "presidenza"
+    label: "Presidenza"
+    folder: "content/presidenza"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Titolo" }
+      - { name: "nome", label: "Nome" }
+      - { name: "email", label: "Email", widget: "string" }
+      - { name: "foto", label: "URL Foto", widget: "image" }
+      - { name: "layout", label: "Layout", default: "page", widget: "hidden" }
+      - { name: "permalink", label: "Permalink", widget: "string" }
+      - { name: "lang", label: "Lingua", default: "it" }
+      - { name: "ruolo", label: "Ruolo", widget: "string" }
+      - { name: "descrizione", label: "Descrizione", widget: "text" }
+      - { name: "ref", label: "Ref interno", widget: "string" }
+      - { name: "body", label: "Contenuto", widget: "markdown" }

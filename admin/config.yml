@@ -2,24 +2,50 @@ backend:
   name: git-gateway
   branch: "48891"
 
-media_folder: "assets/uploads"
-public_folder: "/assets/uploads"
+media_folder: "assets"
+public_folder: "/assets"
 
 collections:
-  - name: "presidenza"
-    label: "Presidenza"
-    folder: "_persone"
+  - name: "staff"
+    label: "Staff"
+    folder: "content/staff"
     create: true
     slug: "{{slug}}"
     fields:
-      - { name: "title", label: "Titolo" }
-      - { name: "nome", label: "Nome" }
-      - { name: "email", label: "Email", widget: "string" }
-      - { name: "foto", label: "URL Foto", widget: "image" }
-      - { name: "layout", label: "Layout", default: "pp", widget: "hidden" }
-      - { name: "permalink", label: "Permalink", widget: "string" }
-      - { name: "lang", label: "Lingua", default: "it" }
-      - { name: "ruolo", label: "Ruolo", widget: "string" }
-      - { name: "descrizione", label: "Descrizione", widget: "text" }
-      - { name: "ref", label: "Ref interno", widget: "string" }
-      - { name: "body", label: "Contenuto", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "usr" }
+      - { label: "Titolo Pagina", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+
+      - label: "Informazioni Personali"
+        name: "person"
+        widget: "object"
+        fields:
+          - { label: "Nome", name: "name", widget: "string" }
+          - { label: "Immagine Profilo", name: "image", widget: "image" default: "https://agfo.fvg.it/assets/media/photos/copertina.png"}
+          - { label: "Incarico", name: "incarico", widget: "string" }
+          - { label: "Tipo di Incarico", name: "tipo_incarico", widget: "string" default: "interno"}
+          - { label: "Data di Insediamento", name: "data_insediamento", widget: "datetime", format: "DD MMMM YYYY", date_format: "DD MMMM YYYY", time_format: false default: "01 gennaio 2025"}
+          - { label: "Email", name: "email", widget: "string" }
+          - label: "Competenze"
+            name: "competenze"
+            widget: "list"
+            summary: "{{fields}}"
+            field: { label: "Competenza", name: "item", widget: "string" }
+
+          - label: "Organizzazioni"
+            name: "organizzazione"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Descrizione", name: "description", widget: "text" }
+
+          - label: "Documenti"
+            name: "documents"
+            widget: "list"
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Descrizione", name: "description", widget: "string" }
+              - { label: "Link al Documento", name: "link", widget: "string" }
+
+      - { label: "Contenuto", name: "body", widget: "markdown" }

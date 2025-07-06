@@ -59,3 +59,27 @@ collections:
       - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
       - { name: "link", label: "Link personalizzato", widget: "string", required: false }
       - { name: "body", label: "Contenuto", widget: "markdown" }
+  - name: "articoli"
+    label: "Articoli"
+    folder: "content/articoli"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Titolo", widget: "string" }
+      - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
+      - { name: "link", label: "Link personalizzato", widget: "string", required: false }
+      - { name: "body", label: "Contenuto", widget: "markdown" }
+  - name: "progetti"
+    label: "Progetti"
+    folder: "content/progetti"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Nome", widget: "string" }
+      - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
+      - { name: "site", label: "Sito del progetto", widget: "string", required: false }
+      - { name: "founder", label: "Fondatore", widget: "string" }
+      - { name: "director", label: "Dirigente", widget: "string" }
+      - { name: "director_link", label: "Link al profilo del dirigente", widget: "string", required: false }
+      - { name: "document", label: "Documento", widget: "file", media_library: { allow_multiple: false } }
+      - { name: "body", label: "Descrizione", widget: "markdown" }

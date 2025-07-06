@@ -49,3 +49,13 @@ collections:
               - { label: "Link al Documento", name: "link", widget: "string" }
 
       - { label: "Contenuto", name: "body", widget: "markdown" }
+  - name: "pagine_it"
+    label: "Pagine in Italiano"
+    folder: "content/it"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Titolo", widget: "string" }
+      - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
+      - { name: "link", label: "Link personalizzato", widget: "string", required: false }
+      - { name: "body", label: "Contenuto", widget: "markdown" }

@@ -31,3 +31,78 @@ Siamo giovani, siamo vivi, e sappiamo una cosa per certo:
 Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
 
 <div data-tf-live="01JYHVTHJNFEQTYZJ0PYM46FH4"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+<section class="section articoli" id="fascia-articoli">
+  <div class="container position-relative">
+    <div class="row variable-gutters">
+      <div class="col-md-5">
+        <div class="hero-title text-left">
+          <h2>Ultimi Progetti</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row variable-gutters">
+      <div class="col-lg-4 mb-2">
+        <div class="card card-bg card-vertical-thumb bg-white card-thumb-rounded">
+          <div class="card-body">
+            <div class="card-content">
+              <h3 class="h5">
+                <a href="https://icfontanafredda.edu.it/buone-feste-dalla-marconi/" 
+                   rel="noopener" 
+                   target="_blank" 
+                   aria-label="Buone feste dalla “Marconi” (opens in a new tab)">
+                  Buone feste dalla “Marconi”
+                </a>
+              </h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-2">
+        <div class="card card-bg card-vertical-thumb bg-white card-thumb-rounded">
+          <div class="card-body">
+            <div class="card-content">
+              <h3 class="h5">
+                <a href="https://icfontanafredda.edu.it/la-mia-acqua/" 
+                   rel="noopener" 
+                   target="_blank" 
+                   aria-label="La mia acqua (opens in a new tab)">
+                  La mia acqua
+                </a>
+              </h3>
+              <p>
+                Laboratorio “La mia acqua” in collaborazione con Lta Acque, classi 2A e 3A S. Pellico
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-2">
+        <div class="card card-bg card-vertical-thumb bg-white card-thumb-rounded">
+          <div class="card-body">
+            <div class="card-content">
+              <h3 class="h5">
+                <a href="https://icfontanafredda.edu.it/progetto-di-plesso-emozioni-in-liberta-marconi/" 
+                   rel="noopener" 
+                   target="_blank" 
+                   aria-label="Progetto di plesso “Emozioni in libertà” (opens in a new tab)">
+                  Progetto di plesso “Emozioni in libertà”
+                </a>
+              </h3>
+              <p>
+                Anche quest’anno la scuola primaria “G. Marconi” ha attivato il progetto “Emozioni in libertà”.
+                Sono stati coinvolti tutti gli alunni delle classi seconde e quarte, i quali hanno partecipato con grande entusiasmo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-4 text-center">
+      <a class="text-underline" href="https://icfontanafredda.edu.it/tipologia-articolo/articoli/">
+        <strong>Vedi tutti</strong>
+      </a>
+    </div>
+  </div>
+</section>

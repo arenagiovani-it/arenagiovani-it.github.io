@@ -37,7 +37,7 @@ Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
     <div class="row variable-gutters">
       <div class="col-md-5">
         <div class="hero-title text-left">
-          <h2>Ultimi Progetti</h2>
+          <h2>Ultime Proposte</h2>
         </div>
       </div>
     </div>
@@ -47,14 +47,13 @@ Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
           <div class="card-body">
             <div class="card-content">
               <h3 class="h5">
-                <a href="https://icfontanafredda.edu.it/buone-feste-dalla-marconi/" 
+                <a href="/proposte/centrogiovani/" 
                    rel="noopener" 
                    target="_blank" 
-                   aria-label="Buone feste dalla “Marconi” (opens in a new tab)">
-                  Buone feste dalla “Marconi”
+                   aria-label="Proposta per il centro giovani (opens in a new tab)">
+                  Proposta per il centro giovani
                 </a>
               </h3>
-              <p></p>
             </div>
           </div>
         </div>
@@ -64,16 +63,13 @@ Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
           <div class="card-body">
             <div class="card-content">
               <h3 class="h5">
-                <a href="https://icfontanafredda.edu.it/la-mia-acqua/" 
+                <a href="/proposte/proiezioni/" 
                    rel="noopener" 
                    target="_blank" 
-                   aria-label="La mia acqua (opens in a new tab)">
-                  La mia acqua
+                   aria-label="Proiezioni film in biblioteca (opens in a new tab)">
+                  Proiezioni film in biblioteca
                 </a>
               </h3>
-              <p>
-                Laboratorio “La mia acqua” in collaborazione con Lta Acque, classi 2A e 3A S. Pellico
-              </p>
             </div>
           </div>
         </div>
@@ -83,24 +79,20 @@ Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
           <div class="card-body">
             <div class="card-content">
               <h3 class="h5">
-                <a href="https://icfontanafredda.edu.it/progetto-di-plesso-emozioni-in-liberta-marconi/" 
+                <a href="/proposte/collabb/" 
                    rel="noopener" 
                    target="_blank" 
-                   aria-label="Progetto di plesso “Emozioni in libertà” (opens in a new tab)">
-                  Progetto di plesso “Emozioni in libertà”
+                   aria-label="Collaborazione comune <> Arena Giovani (opens in a new tab)">
+                  Collaborazione comune <> Arena Giovani
                 </a>
               </h3>
-              <p>
-                Anche quest’anno la scuola primaria “G. Marconi” ha attivato il progetto “Emozioni in libertà”.
-                Sono stati coinvolti tutti gli alunni delle classi seconde e quarte, i quali hanno partecipato con grande entusiasmo.
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="py-4 text-center">
-      <a class="text-underline" href="https://icfontanafredda.edu.it/tipologia-articolo/articoli/">
+      <a class="text-underline" href="/proposte/">
         <strong>Vedi tutti</strong>
       </a>
     </div>

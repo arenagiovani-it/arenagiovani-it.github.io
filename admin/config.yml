@@ -97,3 +97,16 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string", required: true, default: "docs/{{title}}" }
       - { label: "Documento PDF", name: "file", widget: "file", media_library: { allow_multiple: false } }
       - { label: "Corpo della Pagina", name: "body", widget: "markdown", required: false }
+  - name: "organo"
+    label: "organo"
+    folder: "content/organi/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { name: "title", label: "Titolo", widget: "string" }
+      - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
+      - { name: "permalink", label: "Link personalizzato", widget: "string", required: true }
+      - { name: "user", label: "Dirigente / Componente (Link)", widget: "string", required: true }
+      - { name: "contatti", label: "contatti", widget: "string", required: true }
+      - { name: "body", label: "page", widget: "markdown" }

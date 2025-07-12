@@ -4,7 +4,7 @@ title: Benvenuto sul sito di Arena Giovani
 description: n/a
 lang: it
 ref: homepage
-permalink: /site/
+permalink: /
 order: 1
 ---
 # Benvenuti su Arena Giovani

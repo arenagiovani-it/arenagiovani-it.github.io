@@ -1,5 +1,5 @@
 ---
-layout: Home
+layout: page
 title: Benvenuto sul sito di Arena Giovani
 description: n/a
 lang: it

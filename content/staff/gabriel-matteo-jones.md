@@ -3,7 +3,7 @@ layout: usr
 title: Gabriel Matteo Jones
 permalink: /presidenza/gmj.dml/
 person:
-  name: Gabriel (Matteo) Jones
+  name: ""
   image: /assets/download.jpeg
   incarico: Presidente
   tipo_incarico: Presidenza

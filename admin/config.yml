@@ -94,6 +94,6 @@ collections:
       - { label: "Titolo", name: "title", widget: "string" }
       - { label: "Descrizione", name: "description", widget: "text" }
       - { label: "Autore", name: "author", widget: "string" }
-      - { label: "Permalink", name: "permalink", widget: "string", required: true, default: "docs/{{slug}}" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: true, default: "docs/{{title}}" }
       - { label: "Documento PDF", name: "file", widget: "file", media_library: { allow_multiple: false } }
       - { label: "Corpo della Pagina", name: "body", widget: "markdown", required: false }

@@ -14,6 +14,7 @@ person:
     - name: Ufficio Informatico
       link: /uffici/informatico
       description: Ufficio Informatico
+  image: /assets/0001.png
 ---
 [Profilo ufficiale:](https://www.facebook.com/profile.php?id=100073833241848)
 

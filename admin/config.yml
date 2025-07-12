@@ -55,10 +55,10 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "usr" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { name: "title", label: "Titolo", widget: "string" }
       - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
-      - { name: "link", label: "Link personalizzato", widget: "string", required: false }
+      - { name: "permalink", label: "Link personalizzato", widget: "string", required: true }
       - { name: "body", label: "Contenuto", widget: "markdown" }
   - name: "articoli"
     label: "Articoli"

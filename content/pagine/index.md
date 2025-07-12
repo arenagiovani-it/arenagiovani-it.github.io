@@ -1,10 +1,10 @@
 ---
-layout: home
-title: Benvenuto sul sito di Gabriel Jones
+layout: old Home
+title: Benvenuto sul sito di Arena Giovani
 description: n/a
 lang: it
 ref: homepage
-permalink: /
+permalink: /site.5/pages/it/home/
 order: 1
 ---
 # Benvenuti su Arena Giovani
@@ -29,8 +29,6 @@ Siamo giovani, siamo vivi, e sappiamo una cosa per certo:
 
 **Sei pronto a unirti a noi?**  
 Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
-
-<div data-tf-live="01JYHVTHJNFEQTYZJ0PYM46FH4"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 <section class="section articoli" id="fascia-articoli">
   <div class="container position-relative">

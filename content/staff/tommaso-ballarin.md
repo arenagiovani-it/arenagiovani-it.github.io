@@ -7,15 +7,12 @@ person:
   incarico: "Segretario "
   name: Tommaso Ballarin
   organizzazione:
-    - name: Commissione Sport
-      link: /cs/
-      description: Commissione allo sport
-    - name: Organo Presidenziale
-      link: /organi/presidenziale/
-      description: Organo che gestisce l'intera Arena Giovani
+    - name: Segretario
+      link: /organi/segretario/
+      description: organo del Segretario
   tipo_incarico: incarico fiduciario
   competenze:
-    - Esempio
+    - Segretario
   documents: []
   image: /assets/download.jpeg
   email: tb.pubblicemail@agfo.fvg.it

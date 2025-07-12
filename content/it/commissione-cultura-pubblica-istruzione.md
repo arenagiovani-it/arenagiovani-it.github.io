@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Commissione Cultura & Pubblica Istruzione
 date: 2025-07-06T09:48:00.000Z
 permalink: /commissioni/cpi/

@@ -1,7 +1,7 @@
 ---
 permalink: Presidenza
 title: Presidenza
-layout: organizzazione
+layout: organi
 description: Organo Presidenziale è l'organo che gestisce l'intera Arena
   Giovani, con l'unione dei soci e dei possibili finanziatori
 tipologia: Organo Direttivo

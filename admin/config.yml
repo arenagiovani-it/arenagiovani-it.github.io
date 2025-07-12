@@ -55,7 +55,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { name: "title", label: "Titolo", widget: "string" }
       - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
       - { name: "permalink", label: "Link personalizzato", widget: "string", required: true }
@@ -84,3 +84,16 @@ collections:
       - { name: "director_link", label: "Link al profilo del dirigente", widget: "string", required: false }
       - { name: "document", label: "Documento", widget: "file", media_library: { allow_multiple: false } }
       - { name: "body", label: "Descrizione", widget: "markdown" }
+  - name: "documenti"
+    label: "Documenti"
+    folder: "content/documenti"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "doc" }
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Descrizione", name: "description", widget: "text" }
+      - { label: "Autore", name: "author", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: true, default: "docs/{{slug}}" }
+      - { label: "Documento PDF", name: "file", widget: "file", media_library: { allow_multiple: false } }
+      - { label: "Corpo della Pagina", name: "body", widget: "markdown", required: false }

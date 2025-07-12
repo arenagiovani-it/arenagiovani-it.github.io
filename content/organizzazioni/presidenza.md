@@ -1,4 +1,5 @@
 ---
+permalink: Presidenza
 title: Presidenza
 layout: organizzazione
 description: Organo Presidenziale è l'organo che gestisce l'intera Arena

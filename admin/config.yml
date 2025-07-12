@@ -110,3 +110,40 @@ collections:
       - { name: "user", label: "Dirigente / Componente (Link)", widget: "string", required: true }
       - { name: "contatti", label: "contatti", widget: "string", required: true }
       - { name: "body", label: "page", widget: "markdown" }
+  - name: "organizzazioni"
+    label: "Organizzazioni"
+    folder: "content/organizzazioni"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    preview_path: "organizzazioni/{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "organizzazione" }
+      - { label: "Descrizione", name: "description", widget: "text" }
+      - { label: "Tipologia", name: "tipologia", widget: "string" }
+      - label: "Competenze"
+        name: "competenze"
+        widget: "markdown"
+      - label: "Responsabile"
+        name: "responsabile"
+        widget: "object"
+        fields:
+          - { label: "Nome", name: "nome", widget: "string" }
+          - { label: "Ruolo", name: "ruolo", widget: "string" }
+          - { label: "URL profilo", name: "url", widget: "string" }
+      - label: "Sede principale"
+        name: "sede"
+        widget: "object"
+        fields:
+          - { label: "Nome", name: "nome", widget: "string" }
+          - { label: "Indirizzo", name: "indirizzo", widget: "string" }
+          - { label: "URL sede", name: "url", widget: "string" }
+      - label: "Contatti"
+        name: "contatti"
+        widget: "object"
+        fields:
+          - { label: "Telefono", name: "telefono", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+      - { label: "Ulteriori informazioni", name: "more_info", widget: "markdown", required: false }

@@ -157,3 +157,14 @@ collections:
           - { label: "Telefono", name: "telefono", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
       - { label: "Ulteriori informazioni", name: "more_info", widget: "markdown", required: false }
+  - name: "albo"          # Nome interno (deve corrispondere a _albo)
+    label: "Albo Pretorio"  # Etichetta che vedi nell’interfaccia CMS
+    folder: "content/albo"        # Cartella dove salvare i file markdown
+    create: true           # Permetti la creazione di nuovi documenti
+    slug: "{{slug}}"       # Nome file basato sul titolo slugificato
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Tipo Documento", name: "tipo", widget: "select", options: ["Delibera", "Determina", "Avviso", "comunicazione", "Verbali", "Altro"] }
+      - { label: "File PDF", name: "file", widget: "file", allow_multiple: true, media_library: /assets/docs/ }
+      - { label: "Descrizione", name: "description", widget: "text", required: false }

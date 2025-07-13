@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: Bilancio di previsione mandato Jones 2025
 descrizione: Bilancio di previsione del mandato di Gabriel Matteo Jones
 tipo_documento: PDF

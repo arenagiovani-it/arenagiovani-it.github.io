@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Commissione Generale
-permalink: /direzione/cg/
+permalink: /direzione/CommissioneGenerale/
 description: Commissione Generale, tutta Arena Giovani.
 competenze: Gestione Interna
 tipologia: Amministrativa

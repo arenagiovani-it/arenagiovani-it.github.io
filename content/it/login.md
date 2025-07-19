@@ -25,7 +25,6 @@ permalink: /utenza/
           <div class="card-body">
             <h4 class="card-title mb-4 text-center">Login</h4>
             <div id="alert" class="alert alert-danger d-none"></div>
-
             <form id="login-form">
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
@@ -45,10 +44,7 @@ permalink: /utenza/
       </div>
     </div>
   </div>
-
-  <!-- Firebase Config e login script -->
   <script>
-    // ⚙️ CONFIGURA QUI IL TUO PROGETTO FIREBASE
     const firebaseConfig = {
       apiKey: "AIzaSyCu9YBjutCK0UR3EoliYwiNrrKaY8cyt8U",
       authDomain: "ufficiogabrieljones.firebaseapp.com",
@@ -58,23 +54,18 @@ permalink: /utenza/
       appId: "1:754177287030:web:e4f70d2d3d9c54c1d91057",
       measurementId: "G-HBSRVKC0JQ"
     };
-
     // 🔥 Inizializza Firebase
     firebase.initializeApp(firebaseConfig);
-
     // 📲 Login
     const loginForm = document.getElementById('login-form');
     const alertBox = document.getElementById('alert');
-
     loginForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
-
       firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
-          // ✅ Login riuscito
-          window.location.href = "dashboard.html"; // cambia con la tua pagina
+          window.location.href = "dashboard.html";
         })
         .catch((error) => {
           // ❌ Errore

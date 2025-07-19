@@ -4,7 +4,6 @@ title: Login
 date: 2025-07-19T20:00:00.000+02:00
 permalink: /utenza/
 ---
-```
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -87,5 +86,3 @@ permalink: /utenza/
 
   <!-- Bootstrap JS (opzionale per interattività) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-```

@@ -1,0 +1,91 @@
+---
+layout: page
+title: Login
+date: 2025-07-19T20:00:00.000+02:00
+permalink: /utenza/
+---
+```
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  
+  <div class="text-center">
+    <h3 class="mb-4">Accedi con Netlify</h3>
+    <button id="google-login" class="btn btn-danger">
+      <i class="bi bi-google me-2"></i> Accedi con Netlify
+    </button>
+    <div id="login-error" class="mt-3 text-danger d-none"></div>
+  </div>
+    <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4 class="card-title mb-4 text-center">Login</h4>
+            <div id="alert" class="alert alert-danger d-none"></div>
+
+            <form id="login-form">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" class="form-control" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Accedi</button>
+            </form>
+          </div>
+        </div>
+        <p class="text-center mt-3">
+          Non hai un account? <a href="#">Registrati</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase Config e login script -->
+  <script>
+    // ⚙️ CONFIGURA QUI IL TUO PROGETTO FIREBASE
+    const firebaseConfig = {
+      apiKey: "AIzaSyCu9YBjutCK0UR3EoliYwiNrrKaY8cyt8U",
+      authDomain: "ufficiogabrieljones.firebaseapp.com",
+      projectId: "ufficiogabrieljones",
+      storageBucket: "ufficiogabrieljones.firebasestorage.app",
+      messagingSenderId: "754177287030",
+      appId: "1:754177287030:web:e4f70d2d3d9c54c1d91057",
+      measurementId: "G-HBSRVKC0JQ"
+    };
+
+    // 🔥 Inizializza Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    // 📲 Login
+    const loginForm = document.getElementById('login-form');
+    const alertBox = document.getElementById('alert');
+
+    loginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      firebase.auth().signInWithEmailAndPassword(email, password)
+        .then((userCredential) => {
+          // ✅ Login riuscito
+          window.location.href = "dashboard.html"; // cambia con la tua pagina
+        })
+        .catch((error) => {
+          // ❌ Errore
+          alertBox.classList.remove('d-none');
+          alertBox.textContent = "Errore: " + error.message;
+        });
+    });
+  </script>
+
+  <!-- Bootstrap JS (opzionale per interattività) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+```

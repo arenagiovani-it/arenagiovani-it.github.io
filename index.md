@@ -7,8 +7,6 @@ ref: homepage
 permalink: /
 order: 1
 ---
-# Benvenuti su Arena Giovani
-
 Un progetto creato da **Gabriel Matteo Jones** con una missione chiara e ambiziosa:  
 **avvicinare i giovani** alla politica, alle istituzioni, all’orientamento, alle associazioni, alle cooperative... e a tutto ciò che può trasformare idee in azione.
 

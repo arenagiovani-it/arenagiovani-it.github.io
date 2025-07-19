@@ -107,56 +107,37 @@ collections:
       - { label: "Formati disponibili", name: "formati", widget: "string" }
       - { label: "Licenza", name: "licenza", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string", default: "/docs/{{slug}}/" }
-  - name: "organo"
-    label: "organo"
-    folder: "content/organi/"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-      - { name: "title", label: "Titolo", widget: "string" }
-      - { name: "date", label: "Data", widget: "datetime", default: "", hidden: true }
-      - { name: "permalink", label: "Link personalizzato", widget: "string", required: true }
-      - { name: "user", label: "Dirigente / Componente (Link)", widget: "string", required: true }
-      - { name: "contatti", label: "contatti", widget: "string", required: true }
-      - { name: "body", label: "page", widget: "markdown" }
   - name: "organizzazioni"
     label: "Organizzazioni"
     folder: "content/organizzazioni"
     create: true
     slug: "{{slug}}"
     extension: "md"
-    format: "yaml-frontmatter"
+    format: "frontmatter"
     preview_path: "organizzazioni/{{slug}}"
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "organizzazione" }
       - { label: "Descrizione", name: "description", widget: "text" }
-      - { label: "Tipologia", name: "tipologia", widget: "string" }
-      - label: "Competenze"
-        name: "competenze"
-        widget: "markdown"
+      - { label: "Competenze", name: "competenze", widget: "markdown" }
+      - { label: "Tipologia di organizzazione", name: "tipologia", widget: "string" }
       - label: "Responsabile"
         name: "responsabile"
         widget: "object"
         fields:
-          - { label: "Nome", name: "nome", widget: "string" }
-          - { label: "Ruolo", name: "ruolo", widget: "string" }
-          - { label: "URL profilo", name: "url", widget: "string" }
+          - { label: "Nome", name: "responsabile_nome", widget: "string" }
+          - { label: "Ruolo", name: "responsabile_ruolo", widget: "string" }
+          - { label: "URL", name: "responsabile_url", widget: "string", required: false }
       - label: "Sede principale"
         name: "sede"
         widget: "object"
         fields:
-          - { label: "Nome", name: "nome", widget: "string" }
-          - { label: "Indirizzo", name: "indirizzo", widget: "string" }
-          - { label: "URL sede", name: "url", widget: "string" }
-      - label: "Contatti"
-        name: "contatti"
-        widget: "object"
-        fields:
-          - { label: "Telefono", name: "telefono", widget: "string" }
-          - { label: "Email", name: "email", widget: "string" }
-      - { label: "Ulteriori informazioni", name: "more_info", widget: "markdown", required: false }
+          - { label: "Nome", name: "sede_nome", widget: "string" }
+          - { label: "Indirizzo", name: "sede_indirizzo", widget: "string" }
+          - { label: "URL", name: "sede_url", widget: "string", required: false }
+      - { label: "Telefono", name: "telefono", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Ulteriori informazioni", name: "more_info", widget: "markdown" }
   - name: "albo"          # Nome interno (deve corrispondere a _albo)
     label: "Albo Pretorio"  # Etichetta che vedi nell’interfaccia CMS
     folder: "content/albo"        # Cartella dove salvare i file markdown

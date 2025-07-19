@@ -116,7 +116,7 @@ collections:
     format: "frontmatter"
     preview_path: "organizzazioni/{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "organi" }
       - { label: "Titolo", name: "title", widget: "string" }
       - { label: "Permalink", name: "permalink", widget: "string", default: "/organizzazioni/{{slug}}/", required: true }
       - { label: "Descrizione", name: "description", widget: "text" }

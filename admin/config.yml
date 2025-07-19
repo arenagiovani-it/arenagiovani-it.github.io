@@ -118,6 +118,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
       - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/organizzazioni/{{slug}}/" }
       - { label: "Descrizione", name: "description", widget: "text" }
       - { label: "Competenze", name: "competenze", widget: "markdown" }
       - { label: "Tipologia di organizzazione", name: "tipologia", widget: "string" }

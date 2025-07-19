@@ -6,9 +6,9 @@ description: Commissione Generale, tutta Arena Giovani.
 competenze: Gestione Interna
 tipologia: Amministrativa
 responsabile:
-  responsabile_nome: Gabriel Matteo Jones
-  responsabile_ruolo: Reponsabile
-  responsabile_url: /gjones/
+responsabile_nome: Gabriel Matteo Jones
+responsabile_ruolo: Reponsabile
+responsabile_url: /gjones/
 sede:
   sede_nome: Sede Centrale
   sede_indirizzo: Sede Centrale

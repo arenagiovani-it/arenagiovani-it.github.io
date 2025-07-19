@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: organi
 title: Commissione Generale
 permalink: /direzione/CommissioneGenerale/
 description: Commissione Generale, tutta Arena Giovani.

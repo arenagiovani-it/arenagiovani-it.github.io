@@ -31,9 +31,6 @@ permalink: /utenza/
           </div>
         </div>
         <p class="text-center mt-3">
-          Non hai un account? <a href="#">Registrati</a>
-        </p>
-        <p class="text-center mt-3">
           Sei un'amministratore? <a href="/admin/">Accedi da qui</a>
         </p>
       </div>
@@ -60,7 +57,7 @@ permalink: /utenza/
       const password = document.getElementById('password').value;
       firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
-          window.location.href = "dashboard.html";
+          window.location.href = "https://agfo.fvg.it/utenza/dashboard/?aflogiunx";
         })
         .catch((error) => {
           // ❌ Errore

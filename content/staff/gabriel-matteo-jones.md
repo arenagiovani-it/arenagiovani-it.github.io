@@ -20,7 +20,7 @@ person:
     - name: Commissione Proposta Centro Giovani
       link: https://agfo.fvg.it/commissioni/proposte/pcg/
       description: Commissione dedicata alla proposta del centro giovani.
-  tipo_incarico: Presidenza Amministrativa
+  tipo_incarico: Presidenza Generale di Arena Giovani | Friuli Occidentale
   competenze:
     - Gestione del gruppo di lavoro
     - Gestione Ufficio Soci

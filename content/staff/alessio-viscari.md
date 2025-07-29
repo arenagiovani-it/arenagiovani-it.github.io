@@ -1,7 +1,7 @@
 ---
 layout: usr
 title: Alessio Viscari
-permalink: /ext/aviscari/
+permalink: /aviscari/
 person:
   name: Alessio Viscari
   image: /assets/0001.png
@@ -20,7 +20,6 @@ person:
         informatici.
   competenze:
     - " Addetto Gestione Informatica"
+    - Addetto alla gestione delle piattaforme in rete di AGFO
 ---
-Cessato in data: 
-
-1/6/2025
+Per ulteriori info contattare: info@agfo.fvg.it

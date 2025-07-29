@@ -20,6 +20,9 @@ person:
     - name: Commissione Proposta Centro Giovani
       link: https://agfo.fvg.it/commissioni/proposte/pcg/
       description: Commissione dedicata alla proposta del centro giovani.
+    - name: Commissione Giovani dei comuni
+      link: https://agfo.fvg.it/commissioni/proposte/gc/
+      description: ./
   tipo_incarico: Presidenza Generale di Arena Giovani | Friuli Occidentale
   competenze:
     - Gestione del gruppo di lavoro
@@ -32,6 +35,12 @@ person:
       description: È il documento che determina la presidenza, la durata e le deleghe
         del presidente.
       link: /atti/presidenziali/
+    - title: Profilo Ufficiale
+      description: Profilo ufficiale di Gabriel Jones
+      link: https://agfo.fvg.it/gjones/
+    - title: Profilo Redattore
+      description: Profilo del redattore generale
+      link: https://agfo.fvg.it/redattore/
   image: /assets/download.jpeg
   email: gjones@agfo.fvg.it - email istituzionale gestita dall'ufficio della
     presidenza.

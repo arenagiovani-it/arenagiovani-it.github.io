@@ -25,10 +25,10 @@ person:
       description: ./
   tipo_incarico: Presidenza Generale di Arena Giovani | Friuli Occidentale
   competenze:
-    - Gestione del gruppo di lavoro
-    - Gestione Ufficio Soci
-    - Gestione Direttivo
-    - Presidenza
+    - "Gestione del gruppo di lavoro - "
+    - "Gestione Ufficio Soci - "
+    - "Gestione Direttivo - "
+    - "Presidenza - "
     - "Presidente per la commissione alla cultura e pubblica istruzione "
   documents:
     - title: Atto di insediamento

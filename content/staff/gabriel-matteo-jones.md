@@ -41,7 +41,7 @@ person:
     - title: Profilo Redattore
       description: Profilo del redattore generale
       link: https://agfo.fvg.it/redattore/
-  image: /assets/download.jpeg
+  image: https://ufficiogabrieljones.it/assets/img.png
   email: gjones@agfo.fvg.it - email istituzionale gestita dall'ufficio della
     presidenza.
 ---

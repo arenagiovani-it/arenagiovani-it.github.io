@@ -34,10 +34,10 @@ person:
     - title: Atto di insediamento
       description: È il documento che determina la presidenza, la durata e le deleghe
         del presidente.
-      link: /atti/presidenziali/
+      link: https://nonez.jonez.it/agfo/atti/presidenziali/
     - title: Profilo Ufficiale
       description: Profilo ufficiale di Gabriel Jones
-      link: https://agfo.fvg.it/gjones/
+      link: https://nonez.jonez.it/gabriel-jones/
     - title: Profilo Redattore
       description: Profilo del redattore generale
       link: https://agfo.fvg.it/redattore/

@@ -1,10 +1,10 @@
 ---
-layout: old Home
+layout: Home
 title: Benvenuto sul sito di Arena Giovani
 description: n/a
 lang: it
 ref: homepage
-permalink: /site.5/pages/it/home/
+permalink: /
 order: 1
 ---
 # Benvenuti su Arena Giovani
@@ -29,70 +29,3 @@ Siamo giovani, siamo vivi, e sappiamo una cosa per certo:
 
 **Sei pronto a unirti a noi?**  
 Benvenuto in Arena Giovani — dove il futuro lo scriviamo noi.
-
-<section class="section articoli" id="fascia-articoli">
-  <div class="container position-relative">
-    <div class="row variable-gutters">
-      <div class="col-md-5">
-        <div class="hero-title text-left">
-          <h2>Ultime Proposte</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row variable-gutters">
-      <div class="col-lg-4 mb-2">
-        <div class="card card-bg card-vertical-thumb bg-white card-thumb-rounded">
-          <div class="card-body">
-            <div class="card-content">
-              <h3 class="h5">
-                <a href="/proposte/centrogiovani/" 
-                   rel="noopener" 
-                   target="_blank" 
-                   aria-label="Proposta per il centro giovani (opens in a new tab)">
-                  Proposta per il centro giovani
-                </a>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-2">
-        <div class="card card-bg card-vertical-thumb bg-white card-thumb-rounded">
-          <div class="card-body">
-            <div class="card-content">
-              <h3 class="h5">
-                <a href="/proposte/proiezioni/" 
-                   rel="noopener" 
-                   target="_blank" 
-                   aria-label="Proiezioni film in biblioteca (opens in a new tab)">
-                  Proiezioni film in biblioteca
-                </a>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-2">
-        <div class="card card-bg card-vertical-thumb bg-white card-thumb-rounded">
-          <div class="card-body">
-            <div class="card-content">
-              <h3 class="h5">
-                <a href="/proposte/collabb/" 
-                   rel="noopener" 
-                   target="_blank" 
-                   aria-label="Collaborazione comune <> Arena Giovani (opens in a new tab)">
-                  Collaborazione comune <> Arena Giovani
-                </a>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="py-4 text-center">
-      <a class="text-underline" href="/proposte/">
-        <strong>Vedi tutti</strong>
-      </a>
-    </div>
-  </div>
-</section>

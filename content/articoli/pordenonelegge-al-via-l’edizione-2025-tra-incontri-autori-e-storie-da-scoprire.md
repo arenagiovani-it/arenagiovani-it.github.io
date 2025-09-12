@@ -1,7 +1,7 @@
 ---
 title: "Pordenonelegge: al via l’edizione 2025 tra incontri, autori e storie da
   scoprire"
-date: 2025-09-19T11:49:00.000+02:00
+date: 2025-09-12T11:49:00.000+02:00
 ---
 Dal 17 al 21 settembre, la città di Pordenone ospita la ventiseiesima edizione di **Pordenonelegge**, il festival dedicato ai libri, alla lettura e agli autori contemporanei. L’evento, che si conferma tra i principali appuntamenti culturali del territorio e a livello nazionale, offre un ricco calendario di incontri, presentazioni e laboratori, rivolti a lettori di tutte le età.
 

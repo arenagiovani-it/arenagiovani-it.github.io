@@ -24,13 +24,6 @@ person:
     - "Presidenza - "
     - "Presidente per la commissione alla cultura e pubblica istruzione "
   documents:
-    - title: Atto di insediamento
-      description: È il documento che determina la presidenza, la durata e le deleghe
-        del presidente.
-      link: https://nonez.jonez.it/agfo/atti/presidenziali/
-    - title: Profilo Ufficiale
-      description: Profilo ufficiale di Gabriel Jones
-      link: https://nonez.jonez.it/gabriel-jones/
     - title: Profilo Redattore
       description: Profilo del redattore generale
       link: https://agfo.fvg.it/redattore/
